@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "11840294817",
+    "firebase_url": "https://passpocket-b43ab.firebaseio.com",
+    "project_id": "passpocket-b43ab",
+    "storage_bucket": "passpocket-b43ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11840294817:android:b1ffaa51f93e19f5",
+        "android_client_info": {
+          "package_name": "com.kripto.passpocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11840294817-6uiidrle8t12ir6bj5626b0nokncutv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kripto.passpocket",
+            "certificate_hash": "9e1740cb1952edfa253f7b48dcf4bd111a1c903b"
+          }
+        },
+        {
+          "client_id": "11840294817-gtfdsq52pgsouct9fc5ao6nimtc0gr9u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpr5OZLFIWXooV5ycKBqPi5MlvJu-fxIs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11840294817-gtfdsq52pgsouct9fc5ao6nimtc0gr9u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

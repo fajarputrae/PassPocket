@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginAct"
+    android:background="@color/bgColor">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_bold"
+        android:layout_centerHorizontal="true"
+        android:text="PASSWORD\nPOCKET"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_light"
+        android:layout_centerHorizontal="true"
+        android:text="Username"
+        android:layout_marginTop="70dp"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvUsername"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tvInputTitle"
+        android:layout_below="@id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/gotham_light"
+        android:layout_centerHorizontal="true"
+        android:text="Enter PIN"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/etPin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvInputTitle"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/etPin"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:text="SUBMIT"/>
+
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:alpha="0.5"
+        />
+
+</RelativeLayout>
